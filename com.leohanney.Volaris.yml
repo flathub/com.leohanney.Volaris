@@ -18,13 +18,13 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/volar-is/volaris-gui/releases/download/app-v0.5.0/Volaris_0.5.0_amd64.deb
-        sha256: 1b5b24d431fc6263dafdfbf29d07fecf34c78c372afb993755a90924df542aeb
+        url: https://github.com/volar-is/volaris-gui/releases/download/app-v0.6.0/Volaris_0.6.0_amd64.deb
+        sha256: 908f3b51c0b131a87399276c502a5d3b026899e664d74f75a478233c8d9144c2
         only-arches: [x86_64]
         dest-filename: Volaris.deb
       - type: file
-        url: https://raw.githubusercontent.com/volar-is/volaris-gui/6ce70706a9a18c1adf66366c8a4726ee8faa8541/flatpak.xml
-        sha256: a1090aa1971f597bb0b358d867f585219e7c821f1e86c28e8a768a39c4b179b0
+        url: https://raw.githubusercontent.com/volar-is/volaris-gui/84dccdc438c22ea8ee2326fc4e3fd012d59fb1b7/flatpak.xml
+        sha256: 27e34e72f089777b4a30312ebd5471d0f9ff0a0e08d8cdd0eff3f5ee01b6a58a
       - type: file
         url: https://raw.githubusercontent.com/volar-is/volaris-gui/912ffd5c3b77b138f985753066767f07017cc26c/com.leohanney.Volaris.desktop
         sha256: 32bbb44a96c9a1ebfaa1bb4ad3f84fe962c01529fab0eeb31d03f123a1b48562
